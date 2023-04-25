@@ -1,0 +1,3 @@
+Najlepszy język programowania?*java
+Skrót od Java Development Kit?*jdk
+Inaczej instancja klasy?*obiekt

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="314.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.klient1.HelloController">
+   <children>
+      <Label layoutX="23.0" layoutY="122.0" prefHeight="26.0" prefWidth="77.0" text="Your Answer:" />
+      <Label layoutX="31.0" layoutY="67.0" prefHeight="26.0" prefWidth="62.0" text="Your Nick:" />
+      <TextField fx:id="answer" layoutX="115.0" layoutY="122.0" />
+      <TextField fx:id="nick" layoutX="115.0" layoutY="67.0" />
+      <Button fx:id="sendButton" layoutX="81.0" layoutY="178.0" mnemonicParsing="false" onAction="#onSend" prefHeight="56.0" prefWidth="131.0" text="Send Answer&gt;&gt;" />
+      <Button fx:id="connectButton" layoutX="212.0" layoutY="14.0" mnemonicParsing="false" onAction="#onConnect" prefHeight="19.0" prefWidth="88.0" text="Connect" />
+   </children>
+</Pane>
